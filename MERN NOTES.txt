@@ -212,7 +212,7 @@ function greeter(greetFn) {     // passing function in function
 }
 greeter(() => console.log("Hi"));
 
-For OBJECTS n ARRAYs, teh memory address is stored in the variable
+For OBJECTS n ARRAYs, the memory address is stored in the variable
 i.e. Objects = Reference Values
 
 // Children Props  ---------------------------------------------------<<<>>>
