@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <>
       <div className="border-b-2"></div>
-      <div>Footer</div>
+      {/* <div>Footer</div> */}
       <div className="flex justify-center items-center">
-        <div className="logo text-5xl font-black">
+        <div className="logo text-5xl font-black px-20">
           <h5>LOGO</h5>
         </div>
         <div className="info flex gap-6 text-left px-20">
