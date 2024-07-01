@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="border-b-2"></div>
       {/* <div>Footer</div> */}
       <div className="flex justify-center items-center">
-        <div className="logo text-5xl font-black px-20">
+        <div className="logo text-5xl font-black px-20 w-1/2">
           <h5>LOGO</h5>
         </div>
         <div className="info flex gap-6 text-left px-20">

@@ -14,20 +14,20 @@ const Layout = () => {
         </div>
         <div>
           <ul className="flex gap-4">
-            <li>
+            <li className="">
               <Link to="/">Home</Link>
             </li>
             <li>
               <Link to="/about">About</Link>
             </li>
             <li>
-              <Link to="/blogs">Blogs</Link>
-            </li>
-            <li>
               <Link to="/contact">Contact</Link>
             </li>
             <li>
               <Link to="/github">Github</Link>
+            </li>
+            <li>
+              <Link to="/blogs">Blogs</Link>
             </li>
           </ul>
         </div>
