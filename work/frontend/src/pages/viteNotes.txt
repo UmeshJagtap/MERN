@@ -29,3 +29,4 @@ npm run dev
 
 
 50+ JavaScript Practice Exercises || Master JavaScript 2024 -https://www.youtube.com/watch?v=3l3gqpxxQpY
+MERN E-Commerce - Admin Panel, Redux Toolkit, Payment Gateway, Cloud Deployment, Emails (Hindi) https://www.youtube.com/watch?v=LH-S5v-D3hA
