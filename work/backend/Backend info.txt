@@ -1,0 +1,8 @@
+
+Our Backend is as below
+
+To get products >> http://localhost:3000/api/products
+
+Solving CORS issue >> https://medium.com/@fdikmen/node-js-error-has-been-blocked-by-cors-policy-187f6ef1aeeb
+
+.env file setup >> https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786
