@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../components/Footer';
 
 // const Blogs = () => {
 //   return <div className="">Blogs</div>;
@@ -56,6 +57,7 @@ const Blogs = () => {
             })}
           </tbody>
         </table>
+        <Footer />
       </div>
     </>
   );

@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 const Contact = () => {
   return (
     <>
-      <div>Contact</div>
+      {/* <div>Contact</div> */}
       <div className="flex justify-center items-center gap-20">
         <div className="ls">
           <img src={officeWork} className="office-logo" alt="Office logo" />
