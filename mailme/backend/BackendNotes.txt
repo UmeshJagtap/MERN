@@ -1,0 +1,5 @@
+ZUK@DESKTOP-0M6F0IP MINGW64 ~/Documents/GitHub/MERN/mailme/backend (main)
+
+$ npm init -y
+
+$ npm i express
