@@ -1,3 +1,82 @@
 Dir structure >> https://stackoverflow.com/questions/51126472/how-to-organise-file-structure-of-backend-and-frontend-in-mern
 
 Try to add    "dev": "nodemon index.js"   to scripts in package.json
+
+We can try SupaBase here as well :-
+https://supabase.com/docs/guides/getting-started/tutorials/with-nextjs
+
+Machine Coding Interview (Myntra, Zepto) - Tab Form Component using React
+https://www.youtube.com/watch?v=UTky8eipUhA
+
+
+
+http://localhost:3000/api/feedbacks
+
+[
+  {
+    "_id": "67953110cd2f4fd3ca202e63",
+    "name": "abc",
+    "email": "abc@hotmail.com",
+    "feedback": "You are awesome ... First Feedback",
+    "quantity": 10,
+    "price": 5.99,
+    "createdAt": "2025-01-25T18:44:32.491Z",
+    "updatedAt": "2025-01-25T18:44:32.491Z",
+    "__v": 0
+  },
+  {
+    "_id": "679532581b64d42ed8ea0e5e",
+    "name": "xyz",
+    "email": "xyz@hotmail.com",
+    "feedback": "You are really very awesome ...",
+    "quantity": 8,
+    "price": 5.99,
+    "createdAt": "2025-01-25T18:50:00.498Z",
+    "updatedAt": "2025-01-25T18:50:00.498Z",
+    "__v": 0
+  },
+  {
+    "_id": "679537ca3e32604f041fd527",
+    "name": "jkl",
+    "email": "jkl@hotmail.com",
+    "feedback": "Totally satisfied ...",
+    "quantity": 91,
+    "price": 6.95,
+    "createdAt": "2025-01-25T19:13:14.967Z",
+    "updatedAt": "2025-01-25T19:13:14.967Z",
+    "__v": 0
+  },
+  {
+    "_id": "679538ed592540848faf5226",
+    "name": "jk",
+    "email": "jk@hotmail.com",
+    "feedback": "Totally very satisfied ...",
+    "quantity": 99,
+    "price": 3.95,
+    "createdAt": "2025-01-25T19:18:05.157Z",
+    "updatedAt": "2025-01-25T19:18:05.157Z",
+    "__v": 0
+  },
+  {
+    "_id": "67953c3079e4653fec40c5c6",
+    "name": "asdf",
+    "email": "asdf@hotmail.com",
+    "feedback": "Good one ...",
+    "quantity": 20,
+    "price": 5.34,
+    "createdAt": "2025-01-25T19:32:00.260Z",
+    "updatedAt": "2025-01-25T19:32:00.260Z",
+    "__v": 0
+  },
+  {
+    "_id": "67953cd1956653d934e0832d",
+    "name": "asdfgh",
+    "email": "asdfgh@hotmail.com",
+    "feedback": "Good one two...",
+    "quantity": 20,
+    "price": 5.34,
+    "createdAt": "2025-01-25T19:34:41.521Z",
+    "updatedAt": "2025-01-25T19:34:41.521Z",
+    "__v": 0
+  }
+]
