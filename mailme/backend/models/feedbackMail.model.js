@@ -1,21 +1,38 @@
+//
+// Creating mongoose model for feedbackMail for a website :)
+//
+
 const mongoose = require('mongoose');
 
 const FeedbackSchema = mongoose.Schema(
   {
+    // Adding persons mail
     name: {
       type: String,
-      required: [true, 'Please enter your name'],
+      required: [true, 'Please enter your Full Name'],
+    },
+
+    // Adding email of the person giving feedback
+    email: {
+      type: String,
+      required: [true, 'Please enter your Email'],
+    },
+
+    // Adding feedback
+    feedback: {
+      type: String,
+      required: [true, 'Please share your Feedback here'],
     },
 
     quantity: {
       type: Number,
-      required: true,
+      required: false,
       default: 0,
     },
 
     price: {
       type: Number,
-      required: true,
+      required: false,
       default: 0,
     },
 
@@ -24,11 +41,12 @@ const FeedbackSchema = mongoose.Schema(
       required: false,
     },
   },
+
   {
     timestamps: true,
   }
 );
 
-const Product = mongoose.model('Product', ProductSchema);
+const FeedbackMail = mongoose.model('FeedbackMail', FeedbackSchema);
 
-module.exports = Product;
+module.exports = FeedbackMail;
