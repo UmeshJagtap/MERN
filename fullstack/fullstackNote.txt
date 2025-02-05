@@ -1,0 +1,29 @@
+Bad Practise :-
+
+ZUK@DESKTOP-0M6F0IP MINGW64 ~/Documents/GitHub/MERN/fullstack/frontend (main)
+$ npm run build
+
+> frontend@0.0.0 build
+> vite build
+
+vite v6.0.11 building for production...
+✓ 80 modules transformed.
+dist/index.html 0.46 kB │ gzip: 0.29 kB
+dist/assets/react-CHdo91hT.svg 4.13 kB │ gzip: 2.05 kB
+dist/assets/index-n_ryQ3BS.css 1.39 kB │ gzip: 0.71 kB
+dist/assets/index-DBRCAMno.js 178.97 kB │ gzip: 60.41 kB
+✓ built in 1.53s
+
+### Copy the dist folder from frontend
+
+### Paste it into backend
+
+ZUK@DESKTOP-0M6F0IP MINGW64 ~/Documents/GitHub/MERN/fullstack/backend (main)
+$ npm run start
+
+> backend@1.0.0 start
+> node server.js
+
+Serve at http://localhost:3000
+
+### Application will be running on 3000

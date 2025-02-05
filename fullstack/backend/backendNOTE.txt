@@ -1,0 +1,2 @@
+How to connect frontend and backend in javascript | Fullstack Proxy and CORS
+https://www.youtube.com/watch?v=fFHyqhmnVfs
