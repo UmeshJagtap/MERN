@@ -1,5 +1,12 @@
+Complete MERN App (OTP Verification, JWT Token, Authentication, Reset Password)  
+https://www.youtube.com/watch?v=BfrJxGQEPSc
+
+
 Realtime Responsive Chat App with React, Node.js, Socket.io and MongoDB with Group Chats 
 https://www.youtube.com/watch?v=W3sOezpkGWI 
+
+Restaurant POS System with React & Node.js – Part 17: Auth + Protected Routes | #mern #possystem
+https://www.youtube.com/watch?v=IiYDo9MNyBQ
 
 Complete backend developer course part 2    --Chai aur Code
 https://www.youtube.com/watch?v=8k-kK3tsJFY
