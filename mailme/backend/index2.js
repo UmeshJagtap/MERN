@@ -9,8 +9,13 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const Feedback = require('./models/feedbackMail.model.js');
-const app = express();
+
+const dotenv = require('dotenv');
+dotenv.config();
 const port = process.env.PORT || 3000;
+// console.log(`Your port is ${process.env.PORT}`);
+
+const app = express();
 
 app.use(express.json());
 
@@ -120,8 +125,8 @@ mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
     console.log('Connected to database!');
-    app.listen(3000, () => {
-      console.log('Server is up and running on port ' + 3000);
+    app.listen(port, () => {
+      console.log('Server is up and running on port ' + port);
     });
   })
   .catch(() => {

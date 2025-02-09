@@ -8,8 +8,8 @@ const Product = require('./models/product.model.js');
 
 const dotenv = require('dotenv');
 dotenv.config();
-console.log(`Your port is ${process.env.PORT}`); // 8626
 const port = process.env.PORT || 3000;
+// console.log(`Your port is ${process.env.PORT}`); // 8626
 
 const app = express();
 
