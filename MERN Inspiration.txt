@@ -1,3 +1,9 @@
+
+Complete backend developer course part 2    --Chai aur Code
+https://www.youtube.com/watch?v=8k-kK3tsJFY
+
+
+
 Complete MERN App (OTP Verification, JWT Token, Authentication, Reset Password)  
 https://www.youtube.com/watch?v=BfrJxGQEPSc
 
@@ -5,18 +11,28 @@ https://www.youtube.com/watch?v=BfrJxGQEPSc
 Realtime Responsive Chat App with React, Node.js, Socket.io and MongoDB with Group Chats 
 https://www.youtube.com/watch?v=W3sOezpkGWI 
 
+
+Restaurant POS System with React & Node.js – Part 1: Intro + Setup + Basic Design | #mern
+https://www.youtube.com/watch?v=_wmIHApovP4
+
+Restaurant POS System with React & Node.js – Part 8: Redux Integration PT-1 | #mern #pos
+https://www.youtube.com/watch?v=p4WBTpCimKU
+
 Restaurant POS System with React & Node.js – Part 17: Auth + Protected Routes | #mern #possystem
 https://www.youtube.com/watch?v=IiYDo9MNyBQ
 
-Complete backend developer course part 2    --Chai aur Code
-https://www.youtube.com/watch?v=8k-kK3tsJFY
+
+
+AI-Powered Code Reviewer | Complete MERN Stack Project
+https://www.youtube.com/watch?v=J-S-zdfyCDo
 
 
 **V**
+-- ORM ---------------->
 Supabase -Build, Deploy, Test quickly
+
+-- AI Development ----->
 lovable  --https://lovable.dev/  --Idea to app in seconds. Lovable is your superhuman full stack engineer.
-
-
 bolt.new --https://bolt.new/
 claude
 cursor
