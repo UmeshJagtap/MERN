@@ -11,7 +11,7 @@ https://www.youtube.com/watch?v=BfrJxGQEPSc
 Realtime Responsive Chat App with React, Node.js, Socket.io and MongoDB with Group Chats 
 https://www.youtube.com/watch?v=W3sOezpkGWI 
 
-
+// ---------- POS System
 Restaurant POS System with React & Node.js – Part 1: Intro + Setup + Basic Design | #mern
 https://www.youtube.com/watch?v=_wmIHApovP4
 
@@ -21,6 +21,10 @@ https://www.youtube.com/watch?v=p4WBTpCimKU
 Restaurant POS System with React & Node.js – Part 17: Auth + Protected Routes | #mern #possystem
 https://www.youtube.com/watch?v=IiYDo9MNyBQ
 
+
+// ----------- Machine Coading 
+Machine Coding Interview (Microsoft, Atlassian) - File Explorer/ VS code sidebar using React
+https://www.youtube.com/watch?v=c2UJKEIvQZQ
 
 
 AI-Powered Code Reviewer | Complete MERN Stack Project
