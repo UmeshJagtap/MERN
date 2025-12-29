@@ -1,4 +1,8 @@
 
+MERN Authentication Complete Guide | JWT, Email Verification, OTP, Forgot & Change Password
+https://www.youtube.com/watch?v=-L6bcjnRIfU
+
+
 Build a FullStack Job Portal App with MERN Stack (MongoDB, Express, React Js, Node Js)
 https://www.youtube.com/watch?v=F5EYXc91Cpo&list=PLXXI5Oe3aCLky2lAcxpwwqAOCFF-uRpnk
 
