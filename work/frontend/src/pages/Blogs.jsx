@@ -57,8 +57,8 @@ const Blogs = () => {
             })}
           </tbody>
         </table>
-        <Footer />
       </div>
+      <Footer />
     </>
   );
 };
