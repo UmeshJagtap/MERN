@@ -1,0 +1,12 @@
+Installation Commands :-
+
+client -->>>
+
+server -->>>
+npm init
+npm i express
+npm i @apollo/server graphql
+npm i body-parser cors
+---+
+npx rimraf node_modules
+localhost://8000/graphql
