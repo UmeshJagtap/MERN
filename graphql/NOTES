@@ -11,5 +11,91 @@ npm i @apollo/server graphql
 npm i body-parser cors
 ---+
 npx rimraf node_modules
-
 localhost://4000/graphql
+
+//
+// Next.js GraphQL API is SSR or SSG
+//
+
+SSR (Server-Side Rendering) with GraphQL
+You fetch GraphQL data at request time inside getServerSideProps.
+The page is rendered on the server for every request.
+Good for dynamic data that changes often or depends on request context (e.g., authentication, query params).
+Javascript
+Copy code
+// pages/posts.js
+import { gql, request } from 'graphql-request';
+
+export async function getServerSideProps() {
+const query = gql`   {
+      posts {
+        id
+        title
+      }
+    }
+`;
+const data = await request('https://example.com/graphql', query);
+
+return { props: { posts: data.posts } };
+}
+
+export default function Posts({ posts }) {
+return (
+
+<ul>
+{posts.map(p => <li key={p.id}>{p.title}</li>)}
+</ul>
+);
+}
+✅ Pros: Always fresh data
+⚠️ Cons: Slower than SSG, higher server load
+
+2. SSG (Static Site Generation) with GraphQL
+   You fetch GraphQL data at build time inside getStaticProps.
+   The HTML is generated once during build and served as static files.
+   Best for content that rarely changes (e.g., blog posts, docs).
+   Javascript
+   Copy code
+   // pages/posts.js
+   import { gql, request } from 'graphql-request';
+
+export async function getStaticProps() {
+const query = gql`   {
+      posts {
+        id
+        title
+      }
+    }
+`;
+const data = await request('https://example.com/graphql', query);
+
+return { props: { posts: data.posts } };
+}
+
+export default function Posts({ posts }) {
+return (
+
+<ul>
+{posts.map(p => <li key={p.id}>{p.title}</li>)}
+</ul>
+);
+}
+✅ Pros: Very fast, CDN-friendly
+⚠️ Cons: Data can become stale unless you use ISR (Incremental Static Regeneration)
+
+3. ISR (Incremental Static Regeneration) with GraphQL
+   Like SSG, but you can rebuild pages in the background after a set interval.
+   Use revalidate in getStaticProps.
+   Javascript
+   Copy code
+   export async function getStaticProps() {
+   const data = await request('https://example.com/graphql', `{ posts { id title } }`);
+   return { props: { posts: data.posts }, revalidate: 60 }; // revalidate every 60s
+   }
+   ✅ Summary Table
+
+Rendering Mode Function Used When Data is Fetched Use Case
+SSR getServerSideProps On every request Dynamic, user-specific data
+SSG getStaticProps At build time Static content
+ISR getStaticProps + revalidate After interval Semi-dynamic content
+If you want, I can give you a hybrid Next.js GraphQL example that uses SSG for public pages and SSR for authenticated pages so you get the best of both worlds.
