@@ -11,4 +11,5 @@ npm i @apollo/server graphql
 npm i body-parser cors
 ---+
 npx rimraf node_modules
-localhost://8000/graphql
+
+localhost://4000/graphql
