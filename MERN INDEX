@@ -7,10 +7,13 @@ graphql
 --graphql poc
 
 mailme
---
+--poc kinda "Join Newsletter"
 
 shadcn
 --
+
+smaranapp
+-- build in public, 
 
 work
 -- fullstack with pulling data from MongoDB on blogs page
