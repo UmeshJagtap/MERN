@@ -3,10 +3,13 @@ https://github.com/lovekeshpal/smaranapp/tree/master
 
 
 DO IT :-
+
+I Built an AI Interview Agent with MERN 🤖 | Resume Upload + Razorpay + Deploy
+https://www.youtube.com/watch?v=2SyK8CrFXuY
+
+
 Build a Hospital Management System using ReactJs | MERN Stack Project | Full-Stack Project (2026)
 https://www.youtube.com/watch?v=ml1n5OMuNhs
-
-
 
 ReactJS Full Course 2026 | Build and Deploy a Beginner Ecommerce Website using React
 https://www.youtube.com/watch?v=Wt3isV2irrA
