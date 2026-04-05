@@ -1,6 +1,9 @@
 BUILD IN PUBLIC :-
 https://github.com/lovekeshpal/smaranapp/tree/master
 
+5 Laziest ways to Make ₹15,000 as a Student With AI | PRISH
+https://www.youtube.com/watch?v=9ohWi8vISUs
+
 
 DO IT :-
 
@@ -10,6 +13,9 @@ https://www.youtube.com/watch?v=2SyK8CrFXuY
 
 Build a Hospital Management System using ReactJs | MERN Stack Project | Full-Stack Project (2026)
 https://www.youtube.com/watch?v=ml1n5OMuNhs
+
+Build an AI-Powered Real-Time Hospital Management System (MERN, Better Auth, Inngest)
+https://www.youtube.com/watch?v=F9WUbRdUyhQ
 
 ReactJS Full Course 2026 | Build and Deploy a Beginner Ecommerce Website using React
 https://www.youtube.com/watch?v=Wt3isV2irrA
